@@ -1,0 +1,456 @@
+body {
+    font-family: 'Titillium Web', sans-serif !important;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+header {
+    background: #87509C;
+    width: 100%;
+    height: 100%;
+}
+
+.header nav ul li a {
+    color: white !important;
+}
+
+li.nav-item:hover {
+    background-color: #643a79;
+    border-radius: 5px;
+
+}
+
+.hbody {
+    text-align: center;
+    padding: 8rem;
+}
+
+.hbodyc {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.hend button {
+    color: #fff !important;
+    background: #EB7D4B !important;
+    border: none;
+    padding: 1rem 2rem;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 3rem;
+    text-transform: uppercase;
+}
+
+.service {
+    background: #17C2A4;
+    width: 100%;
+    height: 100%;
+}
+
+.service .context {
+    color: #fff;
+    text-align: center;
+}
+
+.service .context h2 {
+    padding-top: 5rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    position: relative;
+}
+
+.service .context h2:after {
+    position: absolute;
+    content: "";
+    background: #000000;
+    opacity: .15;
+    width: 86px;
+    height: 4px;
+    left: 50%;
+    bottom: -10%;
+    margin-top: 20px;
+    transform: translate(-50%, 50%);
+}
+
+.service .context p {
+    font-size: 1rem;
+    padding: 2rem;
+    color: #fff;
+}
+
+.service .contbox {
+    text-align: center;
+    padding-bottom: 6rem;
+
+}
+
+.service .contbox img {
+    padding: 1rem;
+}
+
+
+.service .contbox h4 {
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.team {
+    background: #e7f1f8;
+    width: 100%;
+    height: 100%;
+}
+
+.team .contbox {
+    text-align: center;
+    padding-bottom: 6rem;
+
+}
+
+.team .context {
+    color: #3c4761;
+    text-align: center;
+}
+
+.team .context h2 {
+    padding-top: 5rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    position: relative;
+}
+
+.team .context h2:after {
+    position: absolute;
+    content: "";
+    background: #bdd1df;
+    opacity: 7;
+    width: 86px;
+    height: 4px;
+    left: 50%;
+    bottom: -10%;
+    margin-top: 20px;
+    transform: translate(-50%, 50%);
+}
+
+.team .contbox img {
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.team .context p {
+    color: #3c4761;
+    font-size: 1rem;
+    padding: 2rem;
+}
+
+.team .contbox link {
+    padding-bottom: 1rem;
+    display: block;
+
+}
+
+.team .contbox link a {
+    text-decoration: none;
+
+}
+
+.team.contbox h4 {
+    color: #27283d;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.tsicon i {
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    background: #bdd1df;
+
+    font-size: 16px;
+    line-height: 29px;
+    margin: 3px;
+    color: #fff;
+    transition: .3s;
+}
+
+
+.tsicon i:hover {
+    color: #000;
+    background-color: #17C2A4;
+}
+
+.skill {
+    background: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.skill .contbox {
+    text-align: center;
+    padding-bottom: 6rem;
+
+}
+
+.skill .context {
+    color: #3c4761;
+    text-align: center;
+}
+
+.skill .context h2 {
+    padding-top: 5rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    position: relative;
+}
+
+.skill .context h2:after {
+    position: absolute;
+    content: "";
+    background: #dfe8ed;
+    width: 86px;
+    height: 4px;
+    left: 50%;
+    bottom: -10%;
+    margin-top: 20px;
+    transform: translate(-50%, 50%);
+}
+
+.skill .context p {
+    font-size: 1rem;
+    padding: 2rem;
+
+}
+
+.skill .contbox img {
+    padding: 1rem;
+}
+
+.portfolio {
+    background: #ffdd99;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 7rem;
+}
+
+.portfolio .contbox {
+    text-align: center;
+    padding-bottom: 6rem;
+
+}
+
+.portfolio .context {
+    color: #393939;
+    text-align: center;
+}
+
+.portfolio .context h2 {
+    padding-top: 5rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    position: relative;
+}
+
+.portfolio .context h2:after {
+    position: absolute;
+    content: "";
+    background: #e5c37f;
+    width: 86px;
+    height: 4px;
+    left: 50%;
+    bottom: -10%;
+    margin-top: 20px;
+    transform: translate(-50%, 50%);
+}
+
+.portfolio .context p {
+    font-size: 1rem;
+    padding: 2rem;
+}
+
+.pt-button button:hover {
+    background: #fff;
+}
+
+.pt-button button {
+    background: #ebc985;
+}
+
+.portfolio .contbox img {
+    padding: 2rem;
+}
+
+.portfolio .contbox h5 {
+    color: #393939;
+}
+
+.pt-end {
+    text-align: center;
+}
+
+.pt-end button {
+    background: #17c2a4;
+    color: #fff;
+
+}
+
+.feedback {
+    background: #d74680;
+    width: 100%;
+    height: 100%;
+}
+
+
+.feedback .context .conthed p {
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.feedback .context h2 {
+    color: #fff;
+    text-align: center;
+    padding-top: 5rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    position: relative;
+}
+
+.feedback .context h2:after {
+    position: absolute;
+    content: "";
+    background: #000000;
+    opacity: .15;
+    width: 86px;
+    height: 4px;
+    left: 50%;
+    bottom: -10%;
+    margin-top: 20px;
+    transform: translate(-50%, 50%);
+}
+
+.feedback .contbox img {
+    border-radius: 50%;
+}
+
+.feedback .contbox .info {
+    padding: 1rem;
+    color: #fff;
+    margin-top: -20px;
+
+}
+
+.feedback .contbox .info p {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.feedback .contbox .info h4 {
+    font-weight: 600;
+}
+
+.feedback .contbox .info h6 {
+    color: #ffdd99 !important;
+    font-weight: 600;
+}
+
+.contact {
+    background: #3c5499;
+    width: 100%;
+    height: 100%;
+}
+
+.contact .contbox {
+    text-align: center;
+    padding-bottom: 6rem;
+
+}
+
+.contact .context {
+    color: #fff;
+    text-align: center;
+    margin: auto;
+}
+
+.contact .context h2 {
+    padding-top: 5rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    position: relative;
+}
+
+.contact .context h2:after {
+    position: absolute;
+    content: "";
+    background: #273a71;
+    width: 86px;
+    height: 4px;
+    left: 50%;
+    bottom: -10%;
+    margin-top: 20px;
+    transform: translate(-50%, 50%);
+}
+
+.contact .context p {
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+
+input[type="text"],
+input[type="email"] {
+    background: #273A71;
+    border: none;
+}
+
+textarea#contact-textarea {
+    background: #273A71;
+    border: none;
+}
+
+
+::placeholder {
+    color: #fff !important;
+}
+
+
+
+.contact button {
+    font-weight: 600;
+    background-color: #30BAE7 !important;
+    color: #fff;
+    padding: 15px 53px;
+    text-decoration: none !important;
+
+}
+
+.contact .contbutton {
+    text-align: center;
+    padding: 2rem;
+
+}
+
+.footersec {
+    background: #344b8e;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 2rem;
+    font-size: 20px;
+    padding: 2rem;
+}
+
+
+.footersec .footercont a {
+    text-decoration: none;
+    color: #fff !important;
+    font-weight: 700;
+    padding: 2rem;
+}
+
+.footersec .footercont a:hover {
+    color: #30bae7 !important;
+
+}
