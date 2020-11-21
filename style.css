@@ -3,23 +3,27 @@ body {
     font-weight: 400;
     font-size: 1rem;
 }
+.navarea {
+    background: #87509C;
+    width: 100%;
+    height: 100%;
+    position: sticky;
+}
 
+.navarea nav ul li a {
+    color: white !important;
+}
+
+.navarea li.nav-item:hover {
+    background-color: #643a79;
+    border-radius: 5px;
+
+}
 header {
     background: #87509C;
     width: 100%;
     height: 100%;
 }
-
-.header nav ul li a {
-    color: white !important;
-}
-
-li.nav-item:hover {
-    background-color: #643a79;
-    border-radius: 5px;
-
-}
-
 .hbody {
     text-align: center;
     padding: 8rem;
@@ -287,11 +291,16 @@ li.nav-item:hover {
 
 .pt-end {
     text-align: center;
+
 }
 
 .pt-end button {
     background: #17c2a4;
     color: #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 
 }
 
