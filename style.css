@@ -421,6 +421,9 @@ textarea#contact-textarea {
     border: none;
 }
 
+textarea#contact-textarea:focus {
+    background: #fff;
+}
 
 ::placeholder {
     color: #fff !important;
